@@ -24,4 +24,4 @@ sudo dnf install \
   -y
     
 wget -c https://github.com/Open-Cascade-SAS/OCCT/archive/refs/tags/V7_6_3.tar.gz
-tar -xf V7_6_3.tar.gz
+tar -xvf V7_6_3.tar.gz
