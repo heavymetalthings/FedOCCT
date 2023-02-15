@@ -9,7 +9,7 @@ This software is needed to perform four tasks :
 - CAD
 - Assemblies
 - FEA
-- CAM
+- CAM -> probably based on https://github.com/DjangoReinhard/kutecam
 
 Additionally :
 
