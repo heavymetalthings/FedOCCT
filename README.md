@@ -5,11 +5,15 @@ Configuring Fedora for developing with Open CASCADE Technology aka OCCT .
 Let's keep it simple : 
 The goal of this project is to provide and maintain an open-source software relying on Open Cascade technology.
 
-This software is needed to perform four tasks:
+This software is needed to perform four tasks :
 - CAD
 - Assemblies
 - FEA
 - CAM
+
+Additionally :
+
+- Plan drawing
 
 If any of the previous is missing, it will make the whole thing kind of useless.
 If all the elements are present, it will make it a worthy opponent to any of todays CAD/CAM softwares.
@@ -54,13 +58,28 @@ Minimum dependancies :
 - Tcl/Tk
 
 Additional dependancies : 
+- /
 
+Pre-built binaries are available for some configurations (https://dev.opencascade.org/resources/download/3rd-party-components)
+
+Installing the dependancies :
+
+insert images here 
 
 ## Building OCCT
 
 In this section, we are going to learn how to make the OCCT files.
 
-As advised, we downloaded the CMake software (https://cmake.org/download/)
+Steps to achieve that :
+Since the tutorial explains how to proceed for windows, we're going to explain how to to that in linux, and more accurately Fedora.
+
+- As advised, we downloaded the CMake software (https://cmake.org/download/), that will be used with the GUI and not the command line.
+
+- Documents/yourmaindirectory/ is the source directory
+- Documents/tmp/occt-build-vc10-x64 is the build directory with the generated solution and other intermediate files created during a CMake tool working
+- Documents/occt-install is the installation directory that is able to contain several OCCT configurations
+
+
 
 # Road map
 - [ ] Create a setup Script for a devlopment VM
