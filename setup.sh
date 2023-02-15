@@ -4,9 +4,24 @@ printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbase
 sudo dnf install \
 https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm 
 https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
+#pk rpmfusion ?
 
-
-sudo dnf install htop git ranger codium freetype freeimage ffmpeg tcl tk-y
-
+sudo dnf install \
+  htop \
+  git \
+  freetype \
+  freeimage \
+  ffmpeg \
+  tcl \
+  tk \
+  g++ \
+  cmake \
+  -y
+sudo dnf install \
+  codium \
+  ranger \
+  cmake-gui \
+  -y
+    
 wget -c https://github.com/Open-Cascade-SAS/OCCT/archive/refs/tags/V7_6_3.tar.gz
 tar -xf V7_6_3.tar.gz
