@@ -6,9 +6,8 @@ https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fed
 https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
 #pk rpmfusion ?
 
+# Install OCCT dependencies
 sudo dnf install \
-  htop \
-  git \
   freetype \
   freeimage \
   ffmpeg \
@@ -17,7 +16,10 @@ sudo dnf install \
   g++ \
   cmake \
   -y
+# Install dev tools
 sudo dnf install \
+  htop \
+  git \
   codium \
   ranger \
   cmake-gui \
