@@ -1,5 +1,5 @@
 # FedOCCT
-Configuring Fedora for developing with OCCT.
+Configuring Fedora for developing with Open CASCADE Technology aka OCCT .
 
 ## Overview
 Let's keep it simple : 
@@ -58,6 +58,6 @@ Additional dependancies :
 
 ## Building OCCT
 
-
-
 In this section, we are going to learn how to make the OCCT files.
+
+As advised, we downloaded the CMake software (https://cmake.org/download/)
