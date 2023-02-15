@@ -18,6 +18,10 @@ Also, the software will ave to be :
 - Ergonomic an easy to use
 - Pleasant to the eye
 
+Being engineering students, having a restrained acces to good CAD softwares that CAN'T be used for any commercial use is a terrible thing, because you can't even make a model and share it, making it open-source.
+
+Having software independance is a MASSIVE pro for any application. Now, we gotta erase the  cons :)
+
 ## Installing the tools
 
 First of all, we are, as the name might suggest it, using Fedora (currently 37), and hence all the commands are aimed at this specific distro.
@@ -35,9 +39,13 @@ Ranger is a console file manager with VI key bindings (is a console file manager
 
 Kitty is a GPU based terminal emulator (that I like to use in my tiling window manager, but that's another story)
 
-
-
 ## Installing the dependancies
+After downloading and extracting the files from the OCCT repository (https://github.com/Open-Cascade-SAS/OCCT), we can start looking at the dependancies.
+
+In the OCCT-X_X_X/dox/build, there's a file named building_occt.md
+In there are the instructions for building OCCT.
+
+But first, we have to provide the dependancies.
 
 ## Building OCCT
 
