@@ -22,6 +22,8 @@ Being engineering students, having a restrained acces to good CAD softwares that
 
 Having software independance is a MASSIVE pro for any application. Now, we gotta erase the  cons :)
 
+To conclude, we start with some computing and programming knowledge but, at the same time, we are total newbies in this kind of project.
+
 ## Installing the tools
 
 First of all, we are, as the name might suggest it, using Fedora (currently 37), and hence all the commands are aimed at this specific distro.
@@ -42,13 +44,20 @@ Kitty is a GPU based terminal emulator (that I like to use in my tiling window m
 ## Installing the dependancies
 After downloading and extracting the files from the OCCT repository (https://github.com/Open-Cascade-SAS/OCCT), we can start looking at the dependancies.
 
-In the OCCT-X_X_X/dox/build, there's a file named building_occt.md
+In the OCCT-X_X_X/dox/build, there's a file named "building_occt.md".
 In there are the instructions for building OCCT.
 
 But first, we have to provide the dependancies.
 
+Minimum dependancies :
+- FreeType
+- Tcl/Tk
+
+Additional dependancies : 
+
+
 ## Building OCCT
 
+
+
 In this section, we are going to learn how to make the OCCT files.
-
-
