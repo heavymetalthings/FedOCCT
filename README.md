@@ -28,7 +28,7 @@ To conclude, we start with some computing and programming knowledge but, at the 
 
 First of all, we are, as the name might suggest it, using Fedora (currently 37), and hence all the commands are aimed at this specific distro.
 
-The IDE were are using is VSCodium (https://vscodium.com/).
+The IDE we are using is VSCodium (https://vscodium.com/).
 Even though it is written in javascript, it truly is a polyvalent tool, very enjoyable to use, and easily manageable.
 
 VSCodium has a builtin functionality that allows you to sync a github repo (named source control).
