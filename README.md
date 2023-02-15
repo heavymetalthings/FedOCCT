@@ -61,3 +61,10 @@ Additional dependancies :
 In this section, we are going to learn how to make the OCCT files.
 
 As advised, we downloaded the CMake software (https://cmake.org/download/)
+
+# Road map
+[] Defining clear explicit goals
+[] Comparing to already existing software to understand what we should build differently and how
+[] Defining tools that we are going to use and why
+[] Start working
+[] If it goes well create a github project and wiki and maybe move the repo to a its own separate account
