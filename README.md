@@ -78,7 +78,7 @@ Since the tutorial explains how to proceed for windows, we're going to explain h
 - Documents/occt-install is the installation directory that is able to contain several OCCT configurations
 
 
-![](https://github.com/heavymetalthings/FedOCCT/assets/images/Screenshot from 2023-02-16 12-02-54.png)
+![](https://github.com/heavymetalthings/FedOCCT/assets/images/Screenshot1.png)
 
 # Road map
 - [ ] Create a setup Script for a devlopment VM
