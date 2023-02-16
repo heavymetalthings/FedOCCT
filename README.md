@@ -43,8 +43,6 @@ Git is installed for working with github from the terminal.
 
 Ranger is a console file manager with VI key bindings (is a console file manager with VI key bindings)
 
-Kitty is a GPU based terminal emulator (that I like to use in my tiling window manager, but that's another story)
-
 ## Installing the dependancies
 After downloading and extracting the files from the OCCT repository (https://github.com/Open-Cascade-SAS/OCCT), we can start looking at the dependancies.
 

@@ -7,11 +7,14 @@ https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -
 
 # Install OCCT dependencies
 sudo dnf install \
+  qt \
   freetype \
   freeimage \
   ffmpeg \
   tcl \
   tk \
+  vtk \
+  tbb\
   g++ \
   cmake \
   -y
