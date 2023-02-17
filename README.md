@@ -94,7 +94,7 @@ Unfortunately, some errors pop while configuring it
 
 Solution :
 
-- installing the dev version of the problematic packages fixes the errors related to freetype
+- installing the dev version of the problematic packages fixes the errors
 
 ![image5](/assets/images/Screenshot5.png)
 
