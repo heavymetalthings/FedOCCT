@@ -10,7 +10,6 @@ sudo dnf install \
   qt \
   freetype \
   freetype-devel \
-
   freeimage \
   ffmpeg \
   tcl \

@@ -101,7 +101,7 @@ Solution :
 
 The destination directory now looks like this :
 
-![image6](/assets/images/Screenshot6.png)
+![image6](/assets/images/Screenshot7.png)
 
 
 
