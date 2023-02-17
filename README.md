@@ -93,10 +93,16 @@ Unfortunately, some errors pop while configuring it
 ![image4](/assets/images/Screenshot4.png)
 
 Solution :
+
 - disabling BUILD_MODULE_Draw fixes the first error
 -installing the dev version of freetype fixes the errors related to freetype
 
 ![image5](/assets/images/Screenshot5.png)
+
+The destination directory now looks like this :
+
+![image6](/assets/images/Screenshot6.png)
+
 
 
 # Road map
