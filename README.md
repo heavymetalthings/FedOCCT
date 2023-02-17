@@ -80,6 +80,8 @@ Since the tutorial explains how to proceed for windows, we're going to explain h
 
 ![image1](/assets/images/Screenshot1.png)
 
+![image2](/assets/images/Screenshot2.png)
+
 # Road map
 - [ ] Create a setup Script for a devlopment VM
 - [ ] Defining clear explicit goals
