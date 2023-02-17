@@ -23,6 +23,16 @@ sudo dnf install \
   ranger \
   cmake-gui \
   -y
-    
+
+# Download the OCCT source code
 wget -c https://github.com/Open-Cascade-SAS/OCCT/archive/refs/tags/V7_6_3.tar.gz
+
+# Extract the source code 
 tar -xvf V7_6_3.tar.gz
+
+# Change directory to the untarred folder
+cd OCCT-7_6_3
+
+cmake -S . -B ../cmakeD
+
+make ../cmakeD
