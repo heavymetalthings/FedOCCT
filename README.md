@@ -88,6 +88,19 @@ Configure the source and destination folders :
 
 ![image3](/assets/images/Screenshot3.png)
 
+Unfortunately, some errors pop while configuring it
+
+![image4](/assets/images/Screenshot4.png)
+
+Solution :
+disabling BUILD_MODULE_Draw
+fixes 
+installing the dev version of freetype
+fixes the errors related to freetype
+
+![image5](/assets/images/Screenshot5.png)
+
+
 # Road map
 - [ ] Create a setup Script for a devlopment VM
 - [ ] Defining clear explicit goals

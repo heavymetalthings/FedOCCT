@@ -9,6 +9,8 @@ https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -
 sudo dnf install \
   qt \
   freetype \
+  freetype-devel \
+
   freeimage \
   ffmpeg \
   tcl \
