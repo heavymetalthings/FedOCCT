@@ -80,7 +80,11 @@ Since the tutorial explains how to proceed for windows, we're going to explain h
 
 ![image1](/assets/images/Screenshot1.png)
 
+Configure the source and destination folders :
+
 ![image2](/assets/images/Screenshot2.png)
+
+"Once the source and build directories are selected, "Configure" button should be pressed in order to start manual configuration process."
 
 # Road map
 - [ ] Create a setup Script for a devlopment VM
