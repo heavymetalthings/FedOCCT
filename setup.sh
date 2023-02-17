@@ -33,6 +33,8 @@ tar -xvf V7_6_3.tar.gz
 # Change directory to the untarred folder
 cd OCCT-7_6_3
 
+# Configure the build system ?
 cmake -S . -B ../cmakeD
 
+# Build the OCCT kernel
 make ../cmakeD
