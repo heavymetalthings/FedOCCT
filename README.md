@@ -86,6 +86,8 @@ Configure the source and destination folders :
 
 "Once the source and build directories are selected, "Configure" button should be pressed in order to start manual configuration process."
 
+![image3](/assets/images/Screenshot3.png)
+
 # Road map
 - [ ] Create a setup Script for a devlopment VM
 - [ ] Defining clear explicit goals
