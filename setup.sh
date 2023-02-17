@@ -14,7 +14,9 @@ sudo dnf install \
   freeimage \
   ffmpeg \
   tcl \
+  tcl-devel \
   tk \
+  tk-devel \
   vtk \
   tbb\
   g++ \
