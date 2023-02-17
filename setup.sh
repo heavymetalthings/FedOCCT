@@ -37,4 +37,7 @@ cd OCCT-7_6_3
 cmake -S . -B ../cmakeD
 
 # Build the OCCT kernel
-make ../cmakeD
+cd ..
+cd cmakeD
+make
+cd ..
