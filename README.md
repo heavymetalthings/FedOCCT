@@ -94,8 +94,7 @@ Unfortunately, some errors pop while configuring it
 
 Solution :
 
-- disabling BUILD_MODULE_Draw fixes the first error
--installing the dev version of freetype fixes the errors related to freetype
+- installing the dev version of the problematic packages fixes the errors related to freetype
 
 ![image5](/assets/images/Screenshot5.png)
 
