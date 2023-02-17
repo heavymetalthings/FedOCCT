@@ -1,26 +1,19 @@
 sudo dnf update -y
+
+# VSCodium install
+## Since its easier to install in the vm or even the container
 sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
 printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbaseurl=https://download.vscodium.com/rpms/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\nmetadata_expire=1h" | sudo tee -a /etc/yum.repos.d/vscodium.repo
+
+# Codec install
 sudo dnf install \
-https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm 
-https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
+https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm \
+https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm \
+-y
 
 # Install OCCT dependencies
 sudo dnf install \
-  qt \
-  freetype \
-  freetype-devel \
-  freeimage \
-  ffmpeg \
-  tcl \
-  tcl-devel \
-  tk \
-  tk-devel \
-  vtk \
-  tbb\
-  g++ \
-  cmake \
-  doxygen \
+  opencascade-devel \
   -y
 # Install dev tools
 sudo dnf install \
@@ -30,6 +23,21 @@ sudo dnf install \
   ranger \
   cmake-gui \
   -y
-    
+
+# Download the OCCT source code
 wget -c https://github.com/Open-Cascade-SAS/OCCT/archive/refs/tags/V7_6_3.tar.gz
+
+# Extract the source code 
 tar -xvf V7_6_3.tar.gz
+
+# Change directory to the untarred folder
+cd OCCT-7_6_3
+
+# Generate build files
+cmake -S . -B ../cmakeD
+
+# Build the OCCT kernel
+cd ..
+cd cmakeD
+make
+cd ..
