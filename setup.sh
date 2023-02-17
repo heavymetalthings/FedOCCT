@@ -17,6 +17,7 @@ sudo dnf install \
   tbb\
   g++ \
   cmake \
+  doxygen \
   -y
 # Install dev tools
 sudo dnf install \
