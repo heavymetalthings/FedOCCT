@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+595afb6d1dde06fecf9178651a9ab455 doc/overview/html/occt_logo.png
+1c33bdf84880effae94b97cf619f282f dox/CMakeFiles/Overview
