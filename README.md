@@ -1,4 +1,4 @@
-[![en](https://img.shields.io/badge/lang-fr-red.svg)]
+[![en](https://img.shields.io/badge/lang-fr-red.svg)](https://github.com/heavymetalthings/FedOCCT/blob/main/README.fr.md)
 
 
 # FedOCCT
