@@ -1,3 +1,6 @@
+[![en](https://img.shields.io/badge/lang-fr-red.svg)]
+
+
 # FedOCCT
 Configuring Fedora for developing with Open CASCADE Technology aka OCCT .
 
